@@ -2,10 +2,10 @@
     "name": "firebase-rules-testing-example",
     "version": "1.0.0",
     "description": "An example repo for showing that jest and the @firebase/rules-unit-testing package don't work well together",
-    "main": "src/index.js",
+    "main": "./index.js",
     "scripts": {
         "test": "jest",
-        "serve": "firebase emulators:start",
+        "serve": "firebase --project bunny emulators:start",
         "deploy": "firebase deploy --only functions"
     },
     "engines": {
